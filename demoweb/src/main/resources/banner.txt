@@ -1,0 +1,5 @@
+----------------------------------------
+Deivee's exploration project on Cloud
+Version: ${application.version}
+
+----------------------------------------

@@ -1,0 +1,27 @@
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+app:
+  name: Demo Web Application
+
+demo:
+  secret: ${random.value}
+  number: ${random.int}
+  bignumber: ${random.long}
+  uuid: ${random.uuid}
+  numberLessthan10: ${random.int(10)}
+  numberInRange: ${random.int[1024,65536]}
+
+person:
+  greeting: Hello
+  farewell: Bubbye
+
+
+logging.level:
+    root: INFO
+    com.cs.frm: DEBUG

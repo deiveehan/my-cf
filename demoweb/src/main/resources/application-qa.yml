@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: false
+
+app:
+  name: QA - Demo Web Application
+
+demo:
+  secret: ${random.value}
+  number: ${random.int}
+  bignumber: ${random.long}
+  uuid: ${random.uuid}
+  numberLessthan10: ${random.int(10)}
+  numberInRange: ${random.int[1024,65536]}
